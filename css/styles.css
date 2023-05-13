@@ -5,6 +5,8 @@
   --logo-second-word-header: #2e2f42;
   --logo-second-word-footer: #f4f4fd;
   --border-menu-filter-btn: 1px solid #e7e9fc;
+  --social-list-icon-color: #f4f4fd;
+  --footer-social-list-icon-color: #f4f4fd;
 }
 
 .list {
@@ -340,6 +342,10 @@ body {
   background-color: #404bbf;
 }
 
+.social-list-icon {
+  fill: var(--social-list-icon-color);
+}
+
 /*================ /Our Team ================*/
 
 /*====================== footer ================*/
@@ -356,6 +362,7 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-block-one {
@@ -397,6 +404,10 @@ body {
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-social-list-icon {
+  fill: var(--footer-social-list-icon-color);
 }
 
 /*====================== /footer ================*/

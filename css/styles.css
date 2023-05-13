@@ -87,6 +87,9 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .page-header-container {
@@ -222,6 +225,9 @@ body {
 
 .our-advantages {
   padding: 120px 0;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .advantages-list {
@@ -244,6 +250,9 @@ body {
 
 .what-are-we-doing {
   padding-bottom: 120px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .suptitle {
@@ -266,12 +275,15 @@ body {
   flex-basis: calc((100% - 48px) / 3);
 }
 
-/* Our Team */
+/*================ Our Team ================*/
 
 .our-team {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .employees-list-name {
@@ -286,9 +298,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .team-gallery-list {
@@ -307,12 +319,47 @@ body {
   background-color: #ffffff;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-list-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
+}
+
+/*================ /Our Team ================*/
+
 /*====================== footer ================*/
 
 .footer {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-block-one {
+  margin-right: 120px;
 }
 
 .footer-message {
@@ -322,6 +369,34 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-media-message {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-list-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: #31d0aa;
 }
 
 /*====================== /footer ================*/

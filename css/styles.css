@@ -92,6 +92,18 @@ body {
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
+  /* Effect: Drop shadow
+Radius: 6px
+Offset: 0px, 1px
+rgba(46, 47, 66, 0.08)
+Effect: Drop shadow
+Radius: 1px
+Offset: 0px, 1px
+rgba(46, 47, 66, 0.16)
+Effect: Drop shadow
+Radius: 1px
+Offset: 0px, 2px
+rgba(46, 47, 66, 0.08) */
 }
 
 .page-header-container {
@@ -242,6 +254,18 @@ body {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.advantages-list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 8px;
+  height: 112px;
+}
+
 .advantages-title {
   margin-bottom: 8px;
 }
@@ -316,7 +340,8 @@ body {
 }
 
 .employees-list-text-content {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-align: center;
   background-color: #ffffff;
 }
@@ -347,6 +372,37 @@ body {
 }
 
 /*================ /Our Team ================*/
+
+/*================ CUSTOMERS =============== */
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-list-link {
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  fill: #8e8f99;
+}
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+  fill: #404bbf;
+  border-color: #404bbf;
+}
+
+/*================ /CUSTOMERS =============== */
 
 /*====================== footer ================*/
 
